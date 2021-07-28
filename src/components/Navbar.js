@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return(
       <nav className="navbar__container">
-        <a className="navbar__copy" href="#home" onClick={() => setMenu(false)}>YW - 21 &copy;</a>
+        <a className="navbar__copy" href="#home" onClick={() => setMenu(false)}>JV - 21 &copy;</a>
         <div className={menu? "navbar__links active" : "navbar__links"}>
           <a href="#about" onClick={() => setMenu(false)}>Sobre mi..</a>
           <a href="#project" onClick={() => setMenu(false)}>Projectos</a>
