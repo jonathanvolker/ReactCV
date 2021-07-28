@@ -13,7 +13,7 @@ const Skill = () => {
       <div className="skill__collections">
         <div className="skill__collection">
           <h5 className="skill__text-1">Front-End</h5>
-          <ul className="skill__text-2">
+          <ul className="skill__text-1">
             <li>HTML</li>
             <li>CSS</li>
             <li>Flexbox &#38; Grid</li>
