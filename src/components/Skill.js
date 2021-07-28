@@ -26,7 +26,7 @@ const Skill = () => {
         </div>
         <div className="skill__collection">
           <h5 className="skill__text-1">Idioma</h5>
-          <ul className="skill__text-2">
+          <ul className="skill__text-1">
             <li>Ingles</li>
         
           </ul>
