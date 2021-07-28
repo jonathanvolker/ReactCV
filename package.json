@@ -1,5 +1,5 @@
 {
-  "homepage": "http://wangyiwei0108.github.io/personal-website",
+  "homepage": "",
   "name": "personal-website",
   "version": "0.1.0",
   "private": false,
@@ -9,14 +9,14 @@
     "@testing-library/react": "11.1.0",
     "@testing-library/user-event": "12.1.10",
     "core-js": "3.15.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "react-scripts": "4.0.3",
     "typescript": "^4.3.5",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "1.0.1"
   },
   "optionalDependencies": {
-    "fsevents": "^2.0.7"
+    "fsevents": "2.0.7"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -46,6 +46,6 @@
     ]
   },
   "devDependencies": {
-    "node-sass": "^6.0.0"
+    "node-sass": "^6.0.1"
   }
 }
