@@ -1,0 +1,135 @@
+.work {
+  &__header {
+    font-size: 1rem;
+    letter-spacing: 0.3vw;
+    text-transform: uppercase;
+    margin-bottom: 2.8vw;
+
+    @include respond(-smallest) {
+      margin-bottom: 5vw;
+    }
+  }
+
+  &__info {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    list-style: none;
+    grid-column-gap: 1.4vw;
+    grid-row-gap: 2.8vw;
+
+    @include respond(-smallest) {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+      grid-row-gap: 5.5vw;
+    }
+
+    & li {
+      line-height: 1.6;
+    }
+  }
+
+  &__date {
+    font-size: 0.9vw;
+    letter-spacing: 0.05vw;
+    margin-bottom: 0.7vw;
+    color: $color-primary-3;
+
+    @include respond(-large) {
+      font-size: 1.25vw;
+    }
+
+    @include respond(-medium) {
+      font-size: 1.45vw;
+    }
+
+    @include respond(-small) {
+      font-size: 1.7vw;
+    }
+
+    @include respond(-smaller) {
+      font-size: 2.2vw;
+    }
+
+    @include respond(-smallest) {
+      font-size: 3.2vw;
+      margin-bottom: 3vw;
+    }
+
+    @include respond(-mini) {
+      font-size: 4.2vw;
+    }
+  }
+
+  &__job {
+    font-size: 1.5vw;
+    letter-spacing: 0.1vw;
+    font-weight: 400;
+    color: $color-primary-2;
+    margin-bottom: 0.2vw;
+
+    @include respond(-large) {
+      font-size: 1.55vw;
+    }
+
+    @include respond(-medium) {
+      font-size: 1.75vw;
+    }
+
+    @include respond(-small) {
+      font-size: 2vw;
+    }
+
+    @include respond(-smaller) {
+      font-size: 2.5vw;
+    }
+
+    @include respond(-smallest) {
+      font-size: 3.5vw;
+      margin-bottom: 1vw;
+    }
+
+    @include respond(-mini) {
+      font-size: 4.5vw;
+    }
+  }
+
+  &__company {
+    margin-left: -0.6vw;
+    font-size: 1.2vw;
+    letter-spacing: 0.05vw;
+    color: $color-primary-3;
+
+    @include respond(-large) {
+      font-size: 1.25vw;
+    }
+
+    @include respond(-medium) {
+      font-size: 1.45vw;
+      margin-left: -0.65vw;
+    }
+
+    @include respond(-small) {
+      font-size: 1.7vw;
+      margin-left: -0.7vw;
+    }
+
+    @include respond(-smaller) {
+      font-size: 2.2vw;
+      margin-left: -1vw;
+    }
+
+    @include respond(-smallest) {
+      font-size: 3.2vw;
+      margin-left: -1.5vw;
+    }
+
+    @include respond(-mini) {
+      font-size: 4.2vw;
+    }
+
+    & span {
+      letter-spacing: 0;
+    }
+  }
+}

@@ -1,0 +1,101 @@
+.skill {
+  &__container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+  }
+
+  &__header {
+    font-size: 1rem;
+    letter-spacing: 0.3vw;
+    text-transform: uppercase;
+    margin-bottom: 2.8vw;
+
+    @include respond(-smallest) {
+      margin-bottom: 5vw;
+    }
+  }
+
+  &__collections {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-column-gap: 1vw;
+
+    @include respond(-smaller) {
+      grid-template-columns: 50vw 30vw;
+      grid-column-gap: 0;
+      justify-content: space-between;
+    }
+  }
+
+  &__collection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__text-1 {
+    font-size: 1.4vw;
+    margin-bottom: 1.1vw;
+    font-weight: 500;
+    line-height: 1.6;
+    color: $color-primary-1;
+
+    @include respond(-large) {
+      font-size: 1.45vw;
+    }
+
+    @include respond(-medium) {
+      font-size: 1.65vw;
+    }
+
+    @include respond(-small) {
+      font-size: 1.9vw;
+    }
+
+    @include respond(-smaller) {
+      font-size: 2.4vw;
+    }
+
+    @include respond(-smallest) {
+      font-size: 3.4vw;
+      margin-bottom: 1.8vw;
+    }
+
+    @include respond(-mini) {
+      font-size: 4.4vw;
+    }
+  }
+
+  &__text-2 {
+    font-size: 1.2vw;
+    letter-spacing: 0.05vw;
+    list-style: none;
+    line-height: 1.6;
+    color: $color-primary-4;
+
+    @include respond(-large) {
+      font-size: 1.25vw;
+    }
+
+    @include respond(-medium) {
+      font-size: 1.45vw;
+    }
+
+    @include respond(-small) {
+      font-size: 1.7vw;
+    }
+
+    @include respond(-smaller) {
+      font-size: 2.2vw;
+    }
+
+    @include respond(-smallest) {
+      font-size: 3.2vw;
+    }
+
+    @include respond(-mini) {
+      font-size: 4.2vw;
+    }
+  }
+}

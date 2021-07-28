@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $color-primary-2;
+}
+
+.bgcolor__black {
+  background-color: $color-primary-1;
+
+  & .navbar__container {
+    background-color: $color-primary-1;
+    color: $color-primary-2;
+
+    & a {
+      color: $color-primary-2;
+    }
+  }
+
+  & .navbar__links {
+    &.active {
+      background-color: $color-primary-1;
+    }
+  }
+
+  & .about__text-1, .skill__text-1 {
+    color: $color-primary-2;
+  }
+
+  & .about__text-2, .skill__text-2{
+    color: $color-primary-3;
+  }
+}
+
+:target {
+  padding-top: 12rem;
+  margin-top: -12rem;
+}
