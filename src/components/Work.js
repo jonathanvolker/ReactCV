@@ -10,15 +10,24 @@ const Work = () => {
             </div>
           </div>
       </div>
+      
       <ul className="work__info">
+      <li>
+          <div className="work__date">2019.05 - 2021.02</div>
+          <div className="work__date">Hotel Arrecife</div>
+          <div className="work__date">Montañita Ecuador</div>
+          <div className="work__company">《<span>Encargado</span>》</div>
+        </li>
         <li>
-          <div className="work__date">2017.06 - 2021.02</div>
+          <div className="work__date">2017.08 - 2019.02</div>
           <div className="work__date">EMAR S.A.</div>
+          <div className="work__date">BsAs Argetina</div>
           <div className="work__company">《<span>Administrativo</span>》</div>
         </li>
         <li>
-          <div className="work__date">2019.04 - 2020.07</div>
+          <div className="work__date">2015.04 - 2017.03</div>
           <div className="work__date">IPG Ingenieria</div>
+          <div className="work__date">BsAs Argentina</div>
           <div className="work__company">《<span>Dir. Administrativo</span>》</div>
         </li>
       </ul>
