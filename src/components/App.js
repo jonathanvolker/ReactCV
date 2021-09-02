@@ -20,7 +20,7 @@ const App = () => {
     const scrollFromTop = window.pageYOffset;
 
     for (let i = 0; i < sections.length; i++) {
-      if (scrollFromTop * 0.4 <= sections[i].offsetTop) {
+      if (scrollFromTop * 1 <= sections[i].offsetTop) {
           document.body.className = colors[i];
           break;
       };

@@ -17,11 +17,10 @@ const Skill = () => {
             <li>HTML</li>
             <li>CSS</li>
             <li>Flexbox &#38; Grid</li>
-            <li>SASS</li>
             <li>JavaScript ES6+</li>
             <li>React</li>
             <li>Redux</li>
-            <li>Bases de datos</li>
+            <li>Postgres-Sequelze</li>
           </ul>
         </div>
         <div className="skill__collection">

@@ -2,6 +2,8 @@ import React from 'react';
 import aqi from '../assets/Output.png';
 import CV1 from '../assets/CV1.png';
 import climaap from '../assets/Climapp.png';
+import countries from '../assets/react-countries.png';
+import todo from '../assets/React-todoList.png';
 
 const Project = () => {
   return(
@@ -102,7 +104,73 @@ const Project = () => {
           </div>
         </div>
        </div>
+       <br/> 
+        <br/>
+        <br/>
+        <br/>         
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+       <div className="project__projects">
+        <div className="project__project">
+          <div className="project__intro">
+            <ul>
+              <li className="projects_title">React-Countries</li>
+              <br/> 
+              <li>Componentes de React</li>
+              <li>React Hooks + Redux</li>
+              <li>Stiled Componentes de React</li>
+              <li>Base de datos Postgres</li>
+              <li>Sequelize</li>
+              <li>Diseño de pantalla adaptable（RWD）</li>
+
+            </ul>
+            <div className="project__btns">
+            <a href="https://github.com/jonathanvolker/Countries-React" target="_blank" rel="noreferrer"><div>ViewCode</div></a >
+            </div>
+          </div>
+          <div className="project__pic">
+            <a href="" target="_blank" rel="noreferrer">
+              <img alt="project-air" src={countries} />
+            </a >
+          </div>
+        </div>
+       </div>
+       <div className="project__projects">
+        <div className="project__project">
+          <div className="project__intro">
+            <ul>
+              <li className="projects_title">React-todo-list</li>
+              <br/> 
+              <li>Componentes de React</li>
+              <li>React Hooks + Redux</li>
+              <li>Base de datos Postgres</li>
+
+            </ul>
+            <br/> 
+            <br/>
+            <br/>
+            <br/>         
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <div className="project__btns">
+            <a href="https://github.com/jonathanvolker/ReacTodo" target="_blank" rel="noreferrer"><div>ViewCode</div></a >
+            </div>
+          </div>
+          <div className="project__pic">
+            <a href="" target="_blank" rel="noreferrer">
+              <img alt="project-air" src={todo} />
+            </a >
+          </div>
+        </div>
+       </div>
     </div>
+    
   )
 }
 
