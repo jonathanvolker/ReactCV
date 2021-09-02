@@ -1,5 +1,5 @@
 {
-  "homepage": "",
+  
   "name": "personal-website",
   "version": "0.1.0",
   "private": false,
@@ -46,5 +46,6 @@
   },
   "devDependencies": {
     "node-sass": "^6.0.1"
-  }
+  },
+  "other":{}
 }
