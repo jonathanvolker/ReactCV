@@ -6,7 +6,7 @@ const AboutSkill = () => {
   return (
     <div className="aboutskill__container" id="about">
       <section className="aboutskill__skill"><Skill/></section>
-      <section className="aboutskill__about"><About/></section>
+     
       
     </div>
   )

@@ -2,7 +2,7 @@
   &__container {
     display: grid;
     grid-template-columns: 32vw 25vw;
-    justify-content: space-between;
+    justify-content: center;
     margin: 9vw 7vw 0rem 7vw;
 
     @include respond(-medium) {
