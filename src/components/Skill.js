@@ -21,6 +21,7 @@ const Skill = () => {
             <li>React</li>
             <li>Redux</li>
             <li>Postgres-Sequelze</li>
+            <li>Git</li>
           </ul>
         </div>
         <div className="skill__collection">
