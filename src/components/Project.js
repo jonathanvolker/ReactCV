@@ -20,13 +20,14 @@ const Project = () => {
         <div className="project__project">
           <div className="project__intro">
             <ul>
-              <li className="projects_title">React-Countries</li>
+              <li className="projects_title">VideogamesApp</li>
               <br/> 
               <li>Componentes de React</li>
               <li>React Hooks + Redux</li>
               <li>Stiled Componentes de React</li>
               <li>Base de datos Postgres</li>
               <li>NodeJS + Sequelize</li>
+              <li>Consultas a API opendata</li>
               <li>Diseño de pantalla adaptable（RWD）</li>
 
             </ul>
@@ -54,13 +55,14 @@ const Project = () => {
         <div className="project__project">
           <div className="project__intro">
             <ul>
-              <li className="projects_title">React-Countries</li>
+              <li className="projects_title">Search Countries</li>
               <br/> 
               <li>Componentes de React</li>
               <li>React Hooks + Redux</li>
               <li>Stiled Componentes de React</li>
               <li>Base de datos Postgres</li>
-              <li>Sequelize</li>
+              <li>Consultas a API opendata</li>
+              <li>NodeJS Sequelize</li>
               <li>Diseño de pantalla adaptable（RWD）</li>
 
             </ul>
@@ -89,10 +91,10 @@ const Project = () => {
         <div className="project__project">
           <div className="project__intro">
             <ul>
-              <li>REACT E-COMMERCE</li>
+              <li>React simple E-COMMERCE</li>
               <br/>
               <li>Consultas API  Open Data</li>
-              <li>Componentes de composición React Hooks </li>
+              <li>React Hooks </li>
               <li>ReacsTrap</li>
               <li>Diseño de pantalla adaptable（RWD）</li>
             </ul>
@@ -122,9 +124,9 @@ const Project = () => {
         <div className="project__project">
           <div className="project__intro">
             <ul>
-              <li className="skill__text-1">REACT CV</li>
+              <li className="skill__text-1">React CV</li>
               <br/>
-              <li>Componentes de composición React Hooks </li>
+              <li>Componentes React + Hooks </li>
               <li>CSS</li>
               <li>SASS</li>
               <li>Diseño de pantalla adaptable（RWD）</li>
@@ -155,11 +157,12 @@ const Project = () => {
         <div className="project__project">
           <div className="project__intro">
             <ul>
-              <li className="projects_title">CLIMAPP</li>
+              <li className="projects_title">CLIMAPP City Weather</li>
               <br/> 
               <li>Componentes de React</li>
               <li>CSS</li>
               <li>Diseño de pantalla adaptable（RWD）</li>
+              <li>Uso de API externa parar el clima</li>
             </ul>
             <div className="project__btns">
               
