@@ -13,6 +13,18 @@ const Work = () => {
       
       <ul className="work__info">
       <li>
+          <div className="work__date">2021.08 - 2021.09</div>
+          <div className="work__date">GamesApp web app</div>
+          <div className="work__date">montaje front y back-End</div>
+          <div className="work__company">《<span>developer</span>》</div>
+        </li>
+ 
+       <li>
+          <div className="work__date">2021.08 - 2021.09</div>
+          <div className="work__date">Soy Henry</div>
+          <div className="work__company">《<span>Teaching Asistant </span>》</div>
+        </li>
+      <li>
           <div className="work__date">2019.05 - 2021.02</div>
           <div className="work__date">Hotel Arrecife</div>
           <div className="work__date">Montañita Ecuador</div>

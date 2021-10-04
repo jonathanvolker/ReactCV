@@ -20,17 +20,22 @@ const Skill = () => {
             <li>JavaScript ES6+</li>
             <li>React</li>
             <li>Redux</li>
-            <li>NodeJS + PostgreSQL</li>
+            <li>GitHub</li>
             <li>Git</li>
           </ul>
         </div>
         <div className="skill__collection">
-          <h5 className="skill__text-1">Idioma</h5>
+          <h5 className="skill__text-1">Back-End</h5>
           <ul className="skill__text-1">
-            <li>Ingles (lectura)</li>
-        
+            <li>NodeJS</li>
+            <li>Express</li>
+
+            <li>PostgreSQL</li>
+            <li>MySQL</li>
           </ul>
         </div>
+        
+      
       </div>
     </div>
   )

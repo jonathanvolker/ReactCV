@@ -27,45 +27,11 @@ const App = () => {
     };
   }
 
-  // cursor 
-  useEffect(() => {
-    const cursorTag = document.querySelector("div.cursors");
-    const balls = cursorTag.querySelectorAll("div");
-
-    let aimX = 0;
-    let aimY = 0;
-
-    document.addEventListener("mousemove", function(event) {
-      aimX = event.pageX;
-      aimY = event.pageY;
-    })
-
-    balls.forEach((ball, index) => {
-      let currentX = 0;
-      let currentY = 0;
-
-      let speed = 0.5 - index * 0.025;
-
-      const animate = function(){
-        currentX += (aimX - currentX) * speed;
-        currentY += (aimY - currentY) * speed;
-  
-        ball.style.left = currentX + "px";
-        ball.style.top = currentY + "px";
-  
-        requestAnimationFrame(animate);
-      }
-      animate();
-      
-    })
-  }, [])
 
   return(
     <div id="home">
       <section><Navbar/></section>
-      <div className="app__smile-icon">
-        <i className="far fa-smile"></i>
-      </div>
+     
       <div className="app__container">
         <section><Intro/></section>
         <section><AboutSkill/></section>

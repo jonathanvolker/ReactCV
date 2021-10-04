@@ -132,7 +132,7 @@ const Project = () => {
               <li>Diseño de pantalla adaptable（RWD）</li>
             </ul>
             <div className="project__btns">
-              <a href="https://reactcv.vercel.app" target="_blank" rel="noreferrer"><div>Link</div></a >
+              
               <a href="https://github.com/jonathanvolker/reactcv" target="_blank" rel="noreferrer"><div>ViewCode</div></a >
             </div>
           </div>
