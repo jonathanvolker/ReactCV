@@ -1,6 +1,6 @@
 import React from 'react';
 
-const linkedIn= "http://www.linkedin.com/in/jonathan-volker-610298182";
+const linkedIn= "http://www.linkedin.com/in/jonathan-volker";
 
 
 const Contact = () => {
