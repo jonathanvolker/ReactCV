@@ -28,8 +28,8 @@ const Skill = () => {
           <h5 className="skill__text-1">Back-End</h5>
           <ul className="skill__text-1">
             <li>NodeJS</li>
+            <li>NextJS</li>
             <li>Express</li>
-
             <li>PostgreSQL</li>
             <li>MySQL</li>
           </ul>
