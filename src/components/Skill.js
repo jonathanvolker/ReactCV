@@ -22,6 +22,8 @@ const Skill = () => {
             <li>Redux</li>
             <li>GitHub</li>
             <li>Git</li>
+            <li>Deploys Heroku/Vercel</li>
+
           </ul>
         </div>
         <div className="skill__collection">
