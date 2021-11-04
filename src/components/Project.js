@@ -5,6 +5,7 @@ import climaap from '../assets/Climapp.png';
 import countries from '../assets/react-countries.png';
 import todo from '../assets/React-todoList.png';
 import demoVideogames from "../assets/demoVideogames.gif";
+import scientiaPf from '../assets/Scientia.png'
 
 const Project = () => {
   return(
@@ -16,6 +17,40 @@ const Project = () => {
           </div>
         </div>
       </div>
+      <div className="project__projects">
+        <div className="project__project">
+          <div className="project__intro">
+            <ul>
+              <li className="projects_title">ScientiaPF Ecommerce</li>
+              <br/> 
+              <li>Componentes de React</li>
+              <li>React Hooks + Redux</li>
+              <li>Material UI</li>
+              <li>Base de datos PostgreSQL</li>
+              <li>NodeJS + Express</li>
+              <li>Diseño de pantalla adaptable（RWD）</li>
+
+            </ul>
+            <div className="project__btns">
+            <a href="https://github.com/jonathanvolker/" target="_blank" rel="noreferrer"><div>ViewCode</div></a >
+            </div>
+          </div>
+          <div className="project__pic">
+            <a href="" target="_blank" rel="noreferrer">
+              <img alt="project-air" src={scientiaPf} />
+            </a >
+          </div>
+        </div>
+       </div>
+       <br/> 
+        <br/>
+        <br/>
+        <br/>         
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
       <div className="project__projects">
         <div className="project__project">
           <div className="project__intro">
