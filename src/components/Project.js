@@ -38,6 +38,7 @@ const Project = () => {
           <div className="project__pic">
             <a href="" target="_blank" rel="noreferrer">
               <img alt="project-air" src={scientiaPf} />
+         
             </a >
           </div>
         </div>
