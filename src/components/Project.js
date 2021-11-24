@@ -5,7 +5,7 @@ import climaap from '../assets/Climapp.png';
 import countries from '../assets/react-countries.png';
 import todo from '../assets/React-todoList.png';
 import demoVideogames from "../assets/demoVideogames.gif";
-import scientiaPf from '../assets/Scientia.png'
+import scientiaPf from '../assets/scientia.gif'
 
 const Project = () => {
   return(
