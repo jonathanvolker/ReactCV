@@ -6,6 +6,8 @@ import countries from '../assets/react-countries.png';
 import todo from '../assets/React-todoList.png';
 import demoVideogames from "../assets/demoVideogames.gif";
 import scientiaPf from '../assets/scientia.gif'
+import petsData from "../assets/petsData.png"
+
 
 const Project = () => {
   return(
@@ -99,7 +101,6 @@ const Project = () => {
               <li>Base de datos Postgres</li>
               <li>Consultas a API opendata</li>
               <li>NodeJS Sequelize</li>
-              <li>Diseño de pantalla adaptable（RWD）</li>
 
             </ul>
             <div className="project__btns">
@@ -109,6 +110,41 @@ const Project = () => {
           <div className="project__pic">
             <a href="" target="_blank" rel="noreferrer">
               <img alt="project-air" src={countries} />
+            </a >
+          </div>
+        </div>
+       </div>
+       <br/> 
+        <br/>
+        <br/>
+        <br/>         
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div className="project__projects">
+        <div className="project__project">
+          <div className="project__intro">
+            <ul>
+              <li className="projects_title">PetsData</li>
+              <br/> 
+              <li>Componentes de React</li>
+              <li>React Hooks </li>
+              <li>Material UI</li>
+              <li>Base de datos Postgres</li>
+              <li>NodeJS Strapi</li>
+              <li>Diseño de pantalla adaptable（RWD）</li>
+
+            </ul>
+            <div className="project__btns">
+            <a href="https://github.com/jonathanvolker/api-strapi-postgreSQL-turneroDeVeterinaria" target="_blank" rel="noreferrer"><div>ViewCode</div></a >
+            <a href="https://github.com/jonathanvolker/cliente-TurneroDeVeterinaria" target="_blank" rel="noreferrer"><div>ViewCode</div></a >
+            </div>
+          </div>
+          <div className="project__pic">
+            <a href="" target="_blank" rel="noreferrer">
+              <img alt="project-air" src={petsData} />
             </a >
           </div>
         </div>
