@@ -7,6 +7,7 @@ import todo from '../assets/React-todoList.png';
 import demoVideogames from "../assets/demoVideogames.gif";
 import scientiaPf from '../assets/scientia.gif'
 import petsData from "../assets/petsData.png"
+import uipath from '../assets/uipath.jpg'
 
 
 const Project = () => {
@@ -19,6 +20,38 @@ const Project = () => {
           </div>
         </div>
       </div>
+      <div className="project__projects">
+        <div className="project__project">
+          <div className="project__intro">
+            <ul>
+              <li className="projects_title">Automatizacion de facturas recurrentes</li>
+              <br/> 
+              <li>Uipath Studio Community</li>
+              <li>Excel</li>
+              <li>GestionerSoft (software administrativo)</li>
+
+            </ul>
+            <div className="project__btns">
+            <a href="https://github.com/jonathanvolker/RPA-AutomatizacionFacturas-excel-GestionerSoft.git" target="_blank" rel="noreferrer"><div>ViewCode</div></a >
+            </div>
+          </div>
+          <div className="project__pic">
+            <a href="" target="_blank" rel="noreferrer">
+              <img alt="project-air" src={uipath} />
+         
+            </a >
+          </div>
+        </div>
+       </div>
+       <br/> 
+        <br/>
+        <br/>
+        <br/>         
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
       <div className="project__projects">
         <div className="project__project">
           <div className="project__intro">

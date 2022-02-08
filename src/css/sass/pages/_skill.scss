@@ -1,7 +1,7 @@
 .skill {
   &__container {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: unset;
     grid-template-rows: auto auto;
   }
 

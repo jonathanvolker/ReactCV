@@ -26,6 +26,7 @@ const Skill = () => {
 
           </ul>
         </div>
+        
         <div className="skill__collection">
           <h5 className="skill__text-1">Back-End</h5>
           <ul className="skill__text-1">
@@ -34,6 +35,13 @@ const Skill = () => {
             <li>Express</li>
             <li>PostgreSQL</li>
             <li>MySQL</li>
+          </ul>
+        </div>
+        <div className="skill__collection">
+          <h5 className="skill__text-1">RPA</h5>
+          <ul className="skill__text-1">
+            <li>Uipath Studio Community</li>
+            
           </ul>
         </div>
         
