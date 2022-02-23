@@ -67,6 +67,7 @@ const Project = () => {
 
             </ul>
             <div className="project__btns">
+            <a href="https://front-scientia-pf-m5thwh74d-scientia.vercel.app" target="_blank" rel="noreferrer"><div>Link</div></a > 
             <a href="https://github.com/jonathanvolker/" target="_blank" rel="noreferrer"><div>ViewCode</div></a >
             </div>
           </div>
@@ -99,7 +100,6 @@ const Project = () => {
               <li>Base de datos Postgres</li>
               <li>NodeJS + Sequelize</li>
               <li>Consultas a API opendata</li>
-              <li>Diseño de pantalla adaptable（RWD）</li>
 
             </ul>
             <div className="project__btns">
@@ -233,11 +233,11 @@ const Project = () => {
               <br/>
               <li>Componentes React + Hooks </li>
               <li>CSS</li>
-              <li>SASS</li>
+              <li>AWS Amplifi</li>
               <li>Diseño de pantalla adaptable（RWD）</li>
             </ul>
             <div className="project__btns">
-              
+            <a href="https://master.dzfgo82do43g5.amplifyapp.com" target="_blank" rel="noreferrer"><div>Link</div></a > 
               <a href="https://github.com/jonathanvolker/reactcv" target="_blank" rel="noreferrer"><div>ViewCode</div></a >
             </div>
           </div>
@@ -266,7 +266,6 @@ const Project = () => {
               <br/> 
               <li>Componentes de React</li>
               <li>CSS</li>
-              <li>Diseño de pantalla adaptable（RWD）</li>
               <li>Uso de API externa parar el clima</li>
             </ul>
             <div className="project__btns">
@@ -282,47 +281,7 @@ const Project = () => {
           </div>
         </div>
        </div>
-       <br/> 
-        <br/>
-        <br/>
-        <br/>         
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-     
-       <div className="project__projects">
-        <div className="project__project">
-          <div className="project__intro">
-            <ul>
-              <li className="projects_title">React-todo-list</li>
-              <br/> 
-              <li>Componentes de React</li>
-              <li>React Hooks + Redux</li>
-              <li>Base de datos Postgres</li>
-
-            </ul>
-            <br/> 
-            <br/>
-            <br/>
-            <br/>         
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <div className="project__btns">
-            <a href="https://github.com/jonathanvolker/ReacTodo" target="_blank" rel="noreferrer"><div>ViewCode</div></a >
-            </div>
-          </div>
-          <div className="project__pic">
-            <a href="" target="_blank" rel="noreferrer">
-              <img alt="project-air" src={todo} />
-            </a >
-          </div>
-        </div>
-       </div>
+ 
     </div>
     
   )

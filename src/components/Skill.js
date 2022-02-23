@@ -22,7 +22,7 @@ const Skill = () => {
             <li>Redux</li>
             <li>GitHub</li>
             <li>Git</li>
-            <li>Deploys Heroku/Vercel</li>
+            <li>Deploys AWS/Heroku/Vercel</li>
 
           </ul>
         </div>
