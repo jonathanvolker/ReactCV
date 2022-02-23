@@ -7,7 +7,7 @@ const Footer = () => {
         espero verte pronto ...
         <span> <i className="far fa-smile"></i></span>
       </div>
-      <div className="footer__copy">&copy; 2021 - Jonathan Volker</div>
+      <div className="footer__copy">&copy; 2022 - Jonathan Volker</div>
     </div>
   )
 }
