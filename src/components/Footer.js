@@ -5,7 +5,6 @@ const Footer = () => {
     <div className="footer__container">
       <div className="footer__text">
         espero verte pronto ...
-        <span> <i className="far fa-smile"></i></span>
       </div>
       <div className="footer__copy">&copy; 2022 - Jonathan Volker</div>
     </div>

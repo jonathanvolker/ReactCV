@@ -18,8 +18,9 @@ const Education = () => {
         </li>
         <li>
           <div className="education__date">2021</div>
-          <div className="education__date">SoyHenry</div>
+          <div className="education__date">Academia SoyHenry</div>
           <div className="education__school">FullStack dev.</div>
+          <div className="education__date">React-NodeJS</div>
         </li>
       </ul>
     </div>

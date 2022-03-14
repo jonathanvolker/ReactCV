@@ -15,16 +15,28 @@ const Work = () => {
       
       <ul className="work__info">
       <li>
+          <div className="work__date">2022.2 - Act.</div>
+          <div className="work__date">AA+ Solutions.</div>
+          <div className="work__date">Mexicali Mexico</div>
+          <div className="work__company">《<span>Fullstack</span>》</div>
+        </li>
+      <li>
+          <div className="work__date">2021.12 - 2022.2</div>
+          <div className="work__date">Selucom SRL</div>
+          <div className="work__date">BsAs Argentina</div>
+          <div className="work__company">《<span>Developer</span>》</div>
+        </li>
+      <li>
           <div className="work__date">2021.08 - 2021.11</div>
           <div className="work__date">ScientiaPF ecommerce</div>
           <div className="work__date">montaje front y back-End</div>
-          <div className="work__company">《<span>developer</span>》</div>
+          <div className="work__company">《<span>Fullstack</span>》</div>
         </li>
       <li>
           <div className="work__date">2021.08 - 2021.09</div>
           <div className="work__date">GamesApp web app</div>
           <div className="work__date">montaje front y back-End</div>
-          <div className="work__company">《<span>developer</span>》</div>
+          <div className="work__company">《<span>Fullstack</span>》</div>
         </li>
  
        <li>

@@ -18,30 +18,37 @@ const Skill = () => {
             <li>CSS</li>
             <li>Flexbox &#38; Grid</li>
             <li>JavaScript ES6+</li>
-            <li>React</li>
-            <li>Redux</li>
-            <li>GitHub</li>
+            <li>React - Redux - Context </li>
             <li>Git</li>
-            <li>Deploys AWS/Heroku/Vercel</li>
-
-          </ul>
+            <li>AWS/Heroku/Vercel</li>
+         </ul>
         </div>
         
         <div className="skill__collection">
           <h5 className="skill__text-1">Back-End</h5>
           <ul className="skill__text-1">
             <li>NodeJS</li>
-            <li>NextJS</li>
             <li>Express</li>
-            <li>PostgreSQL</li>
-            <li>MySQL</li>
+            <li>Strapi</li>
+            <li>NextJS</li>
+            <li>AWS/Heroku/Vercel</li>
           </ul>
         </div>
+        <div className="skill__collections">
+        <div className="skill__collection">
+          <h5 className="skill__text-1">Bases de Datos</h5>
+          <ul className="skill__text-1">
+          <li>PostgreSQL</li>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+         </ul>
+        </div>
+        </div>       
+        
         <div className="skill__collection">
           <h5 className="skill__text-1">RPA</h5>
           <ul className="skill__text-1">
             <li>Uipath Studio Community</li>
-            
           </ul>
         </div>
         

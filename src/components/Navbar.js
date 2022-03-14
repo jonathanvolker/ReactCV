@@ -16,9 +16,9 @@ const Navbar = () => {
 
   return(
       <nav className="navbar__container">
-        <a className="navbar__copy" href="#home" onClick={() => setMenu(false)}>JV - 21 &copy;</a>
+        <a className="navbar__copy" href="#home" onClick={() => setMenu(false)}>JV - 22 &copy;</a>
         <div className={menu? "navbar__links active" : "navbar__links"}>
-          <a href="#about" onClick={() => setMenu(false)}>Sobre mi..</a>
+          <a href="#about" onClick={() => setMenu(false)}>Skills</a>
           <a href="#project" onClick={() => setMenu(false)}>Projectos</a>
           <a href="#experience" onClick={() => setMenu(false)}>Experiencia</a>
           <a href="#contact" onClick={() => setMenu(false)}>Contacto</a>
